@@ -1,0 +1,17 @@
+<li class="product__item" *ngFor="let product of products.items">
+  <div class="product__info">
+    <a href="" class="product__photo">
+      <img src="http://galeri8.uludagsozluk.com/462/psikopat-cocukluk-deneyimleri_798160_m.jpg"
+           class="product__image"
+           alt="{{product.name}}">
+    </a>
+    <div class="product__details">
+      <strong class="product__name">
+        <a href="" class="product__link">{{product.name}}</a>
+      </strong>
+      <div class="product__price-box">
+        <span class="product__price">{{product.price}}</span>
+      </div>
+    </div>
+  </div>
+</li>
